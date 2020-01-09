@@ -1,7 +1,7 @@
 Summary: GNU's bc (a numeric processing language) and dc (a calculator)
 Name: bc
 Version: 1.06.95
-Release: 11%{?dist}
+Release: 13%{?dist}
 License: GPLv2+
 URL: http://www.gnu.org/software/bc/
 Group: Applications/Engineering
@@ -66,6 +66,12 @@ fi
 %{_infodir}/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.06.95-13
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.06.95-12
+- Mass rebuild 2013-12-27
+
 * Wed Oct 02 2013 Frantisek Kluknavsky <fkluknav@redhat.com> - 1.06.95-11
 - man and info patched - clarified scale after multiplication
 
